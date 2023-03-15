@@ -1,0 +1,60 @@
+@media(max-width: 667px) {
+    .body {
+        margin:0 a;
+        /* padding-left: 5%;
+        padding-right: 5%; */
+        /* padding-bottom: 80px; */
+     }
+
+    .caption {
+        text-align: center;
+        padding-top: 20px;
+        top: 25%;
+    }
+    
+    .top-img-wrapper {
+        padding: 8px 50px 12px 50px;
+        /* padding: 50px; */
+        /* width: auto; */
+    }
+
+    .container{
+        margin-top:100px
+    }
+   
+    .films{
+        grid-template-columns: 190px  ;
+        gap: 50px;
+        row-gap: 7px;
+    }
+
+    .fi-film img{
+        width:200px;
+        height:250px;
+    }
+
+    
+      /* css untuk body */
+      .films{
+        grid-template-columns: 180px;
+        gap: 100px;
+        row-gap: 1px;
+    }
+    
+
+    
+    /* .deskripsi{
+        width   : 400px;
+        text-align: center;
+        margin: auto
+    } */
+    
+}
+
+@media(max-width:1024px) {
+
+  
+}
+
+
+

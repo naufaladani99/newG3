@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Document</title>
+    </head>
+    <body>
+        <input type="radio" id="image1" name="image" checked />
+        <input type="radio" id="image2" name="image" />
+        <input type="radio" id="image3" name="image" />
+
+        <div class="container">
+        <div class="featured-wrapper">
+            <ul class="featured-list">
+            <li>
+                <div class="top-img-wrapper">
+                    <img
+                        src="https://e1.pxfuel.com/desktop-wallpaper/678/818/desktop-wallpaper-10-tempat-romantis-kisah-cinta-milea-dan-dilan-di-kota-bandung-yuk-nostalgia-dilan-1990.jpg"
+                        alt=""
+                    />
+                    <div class="caption">
+                        <h2>Dilan 1990</h2>
+                        <p>2018 | 13+</p>
+                        <p>Di sebuah SMA di Bandung, Dilan yang menawan dan suka memberontak<br>bersaing memperebutkan cinta siswi baru yang pemalu, Milea.</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="top-img-wrapper"> 
+                    <img
+                        src="https://images3.alphacoders.com/122/thumbbig-1227544.webp"
+                        alt=""
+                    />
+                    <div class="caption">
+                        <h2>SPY x FAMILY</h2>
+                        <p>2022 | 16+</p>
+                        <p>Mata-mata, pembunuh, dan ahli telepati menyamar bersama<br>sebagai satu keluarga. Mereka masing-masing punya<br>alasan sendiri dan menutupi identitas aslinya</p>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="top-img-wrapper">
+                    <img
+                        src="https://wallpapercave.com/wp/wp9622078.jpg"
+                        alt=""
+                    />
+                    <div class="caption">
+                        <h3>My Roommate Is a Gumiho</h3>
+                        <p>2021 | 16+</p>
+                        <p>Seorang wanita muda yang menelan manik-manik berharga yang memungkinkan<br>rubah ekor sembilan berubah menjadi manusia, dan meyakinkan untuk hidup bersama.</p>
+                    </div>
+                </div>
+            </li>
+            </ul>
+            <ul class="arrows">
+            <li>
+                <label for="image1"></label>
+            </li>
+            <li>
+                <label for="image2"></label>
+            </li>
+            <li>
+                <label for="image3"></label>
+            </li>
+            </ul>
+            <ul class="dots">
+            <li>
+                <label for="image1"></label>
+            </li>
+            <li>
+                <label for="image2"></label>
+            </li>
+            <li>
+                <label for="image3"></label>
+            </li>
+            </ul>
+        </div>
+        <!-- <ul class="thumb-list">
+            <li>
+            <label for="image1">
+                <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature4.jpg"
+                alt=""
+                />
+                <span class="outer">
+                <span class="inner">Caption1</span>
+                </span>
+            </label>
+            </li>
+            <li>
+            <label for="image2">
+                <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature11.jpg"
+                alt=""
+                />
+                <span class="outer">
+                <span class="inner">Caption2</span>
+                </span>
+            </label>
+            </li>
+            <li>
+            <label for="image3">
+                <img
+                src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/162656/unsplash_nature6.jpg"
+                alt=""
+                />
+                <span class="outer">
+                <span class="inner">Caption3</span>
+                </span>
+            </label>
+            </li>
+        </ul> -->
+        </div>
+    </body>
+</html>
